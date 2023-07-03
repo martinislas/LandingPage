@@ -109,6 +109,10 @@ input, select, textarea {
 			transition: none !important;
 		}
 
+		p{
+			text-align: justify;
+		}
+
 /* Type */
 
 	body, input, select, textarea {
@@ -4123,3 +4127,39 @@ footer .row{
 	flex-direction: column;
 }
 
+/*DoprBox*/
+
+
+  
+  .frame {
+	max-width: 500px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+  }
+  
+  .form-group {
+	padding-bottom: 1em;
+	
+	label, input {
+	  display: block;
+	}
+  }
+  
+  .file-drop {
+	box-sizing: border-box;
+	border: 3px dashed #00D1B2;
+	padding: 40px;
+	text-align: center;
+	
+	input {
+	  display: inline-block;
+	}
+	
+	&.active {
+	  background: #005cff;
+	}
+  }
+
+ 
+  
