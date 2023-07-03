@@ -3068,7 +3068,7 @@ input, select, textarea {
 			}
 
 		.spotlights > section:nth-child(2) {
-			background-color: rgba(0, 0, 0, 0.05);
+			;
 		}
 
 		.spotlights > section:nth-child(3) {
